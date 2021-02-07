@@ -2,7 +2,7 @@
 # Reference: https://mybinder.readthedocs.io/en/latest/dockerfile.html#preparing-your-dockerfile
 # This file cloned from https://github.com/sagemath/sage-binder-env
 
-FROM sagemath/sagemath:9.2
+FROM sagemath/sagemath:9.1
 
 RUN sage -pip install jupyterlab
 
